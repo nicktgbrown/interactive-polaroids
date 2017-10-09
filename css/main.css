@@ -52,6 +52,6 @@ html {
 .polaroid:hover {
   position: absolute;
   transform: rotate(0deg);
-  z-index: 4px;
+  z-index: 4;
   box-shadow: 1px 10px 30px rgba(0, 0, 0, .7);
 }
