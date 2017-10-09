@@ -39,5 +39,19 @@ html {
   left: 30%;
   top: 150px;
   transform: rotate(32deg);
+  z-index: 3;
+}
+
+.polaroid:last-child {
+  left: 40%;
+  top: 100px;
+  transform: rotate(32deg);
   z-index: 2;
+}
+
+.polaroid:hover {
+  position: absolute;
+  transform: rotate(0deg);
+  z-index: 4px;
+  box-shadow: 1px 10px 30px rgba(0, 0, 0, .7);
 }
